@@ -1,12 +1,11 @@
 import React from "react";
-import "./index.css";
 
-function forms() {
+function sequentialForms() {
   return (
     <>
-      <h1></h1>
+      <h1>form</h1>
     </>
   );
 }
 
-export default forms;
+export default sequentialForms;
