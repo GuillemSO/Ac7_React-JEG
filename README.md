@@ -1,6 +1,6 @@
 # Asignación de roles
 
-### Diseño UX/UI - Joel Mesas Ontoria
+### Diseño UX/UI - Joel Mesas Hontoria
 
 ### Formularios - Eric Baena Canto
 
