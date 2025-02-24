@@ -8,7 +8,7 @@
 
 # Puntos críticos
 
-**[] - Navegación entre formularios con useState**
-**[] - Validación de formularios con useEffect**
-**[] - Multi-idioma**
-**[] - Almacenamiento en localStorage**
+**[] - Navegación entre formularios con useState** <br>
+**[] - Validación de formularios con useEffect** <br>
+**[] - Multi-idioma** <br>
+**[] - Almacenamiento en localStorage** <br>
