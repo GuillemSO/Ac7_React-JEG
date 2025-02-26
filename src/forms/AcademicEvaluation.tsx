@@ -1,11 +1,7 @@
 import React from "react";
 
-function AcademicEvaluation() {
-  return (
-    <>
-      <h1></h1>
-    </>
-  );
+function AcademicEvaluation({ children }: any) {
+  return <>{children}</>;
 }
 
 export default AcademicEvaluation;

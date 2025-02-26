@@ -1,9 +1,10 @@
 import React from "react";
 
-function CinemaPreferences() {
+function CinemaPreferences({ children }: any) {
   return (
     <>
       <h1></h1>
+      {children}
     </>
   );
 }
