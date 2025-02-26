@@ -1,9 +1,10 @@
 import React from "react";
 
-function TechnologiesPreferences() {
+function TechnologiesPreferences({ children }: any) {
   return (
     <>
       <h1></h1>
+      {children}
     </>
   );
 }
