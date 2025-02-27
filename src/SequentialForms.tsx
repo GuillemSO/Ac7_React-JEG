@@ -12,7 +12,11 @@ function SequentialForms() {
   };
 
   const forms = [
-    <button key="start" className="cursor-pointer" onClick={changeForm}>
+    <button
+      key="start"
+      className="cursor-pointer text-white text-4xl border rounded-md p-5"
+      onClick={changeForm}
+    >
       Empezar el cuestionario
     </button>,
     <PersonalInfo key="personal">
