@@ -4,6 +4,8 @@ import "./index.css";
 
 createRoot(document.getElementById("root")!).render(
   <>
-    <SequentialForms></SequentialForms>
+    <section>
+      <SequentialForms></SequentialForms>
+    </section>
   </>
 );
