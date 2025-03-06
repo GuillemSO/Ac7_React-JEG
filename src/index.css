@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+@theme {
+  --font-special: "Playpen Sans Variable";
+  --font-regular: "Poppins";
+
+  --color-primary: #5386a6;
+  --color-primary-light: #c4e1f2;
+  --color-secondary: #402c21;
+  --color-secondary-light: #a68358;
+}
