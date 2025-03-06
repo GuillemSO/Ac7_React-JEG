@@ -20,16 +20,24 @@ function SequentialForms() {
       Empezar el cuestionario
     </button>,
     <PersonalInfo key="personal">
-      <button onClick={changeForm}>Evaluacion academica</button>
+      <button onClick={changeForm} className="text-white">
+        Evaluacion academica
+      </button>
     </PersonalInfo>,
     <AcademicEvaluation key="academic">
-      <button onClick={changeForm}>Preferencias tecnologicas</button>
+      <button onClick={changeForm} className="text-white">
+        Preferencias tecnologicas
+      </button>
     </AcademicEvaluation>,
     <TechnologiesPreferences key="tech">
-      <button onClick={changeForm}>Preferencias cinematograficas</button>
+      <button onClick={changeForm} className="text-white">
+        Preferencias cinematograficas
+      </button>
     </TechnologiesPreferences>,
     <CinemaPreferences key="cinema" onNext={changeForm}>
-      <button onClick={changeForm}>Finalizar cuestionario</button>
+      <button onClick={changeForm} className="text-white">
+        Finalizar cuestionario
+      </button>
     </CinemaPreferences>,
   ];
 

@@ -10,7 +10,7 @@ function AcademicEvaluation({ children }: any) {
         noValidate
         className="bg-slate-700 p-10 text-2xl text-white flex flex-col [&>*]:p-5"
       >
-        <label htmlFor="comentarios">
+        <label htmlFor="comentarios" className="flex flex-row">
           <h2>¿Qué mejorarías en el curso?</h2>
           <textarea
             name="comentarios"
@@ -18,7 +18,7 @@ function AcademicEvaluation({ children }: any) {
             className="border-2 rounded-md p-2"
           ></textarea>
         </label>
-        <label htmlFor="satisfaccion">
+        <label htmlFor="satisfaccion" className="flex flex-row">
           <h2>¿Qué tan satisfecho estás con el contenido del curso?</h2>
           <select name="satisfaccion" id="" className="border-2 rounded-md p-2">
             <option value="">1</option>
@@ -28,12 +28,16 @@ function AcademicEvaluation({ children }: any) {
             <option value="">5</option>
           </select>
         </label>
-        <label htmlFor="asistencia">
+        <label htmlFor="asistencia" className="flex flex-row gap-5">
           <h2>¿Asististe a todas las clases?</h2>
-          <p>Si</p>
-          <input type="checkbox" name="asistencia" id="" value="si" />
-          <p>No</p>
-          <input type="checkbox" name="asistencia" id="" value="no" />
+          <div className="flex flex-row gap-2 border-2 rounded-md p-2">
+            <p>Si</p>
+            <input type="checkbox" name="asistencia" id="" value="si" />
+          </div>
+          <div className="flex flex-row gap-2 border-2 rounded-md p-2">
+            <p>No</p>
+            <input type="checkbox" name="asistencia" id="" value="no" />
+          </div>
         </label>
         <label htmlFor="horarios">
           <h2>
